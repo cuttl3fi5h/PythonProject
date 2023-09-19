@@ -28,7 +28,7 @@ bot_count =  0
 while True:
     randomVar = random.randint(0,2)
     print(" Сделайте выбор: Камень/Ножницы/Бумага\n")
-    print(" Узнать счёт:  \n")
+    print(" Узнать счёт: Счёт/Узнать Счёт \n")
     print(" Сбросить счёт: Заново/Сбросить счёт\n")
     choice = input()
     match choice:
